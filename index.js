@@ -10,6 +10,7 @@ app.use('/ping', (req, res) => {
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
+// log messages
 client.on('ready', () => {
   console.log(`Logged in as: ${client.user.tag}!`);
 });
